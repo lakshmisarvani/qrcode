@@ -1,0 +1,49 @@
+.card{
+    /*margin: 60px; =>moves the content of the card accordingly*/
+    /*whereas padding property moves the content inside of the card accordingly*/
+    height:570px;
+    box-shadow: 0px 10px 8px 5px rgba(0,0,0,0.5) ;
+    /* box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5) ; */
+    /* rgba means alpha channel where box-shadow will be applied on respective sides of cards based on dimensions */
+    /* width: 332px; */
+    width: 100%;
+    max-width: 332px;
+    background-color: white;
+
+    /* to make rounded corner */
+    border-radius: 16px;
+
+    /* to center card */
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    /* position relative is not choosen as it is linked with body
+    if position:relative is used both in card and body,the content of the card will not be in the center of the viewport */
+
+    padding: 16px; /*instead of 16px,1rem can be used*/
+   padding-bottom: 1rem;
+    
+}
+body{
+    background-color: #D5E1EF;
+    font-family: cursive;
+    text-align: center; /*this property will be inherited in every element */
+    min-height: 100vh; /*content will be increased */
+}
+img{
+    width: 100%;
+    border-radius: 10px; /*to make qrcode image rounded in each corner */
+
+}
+/* h2{
+    font-family: cursive;
+} */
+ h2{
+    /* color: #252D47; */
+    color: #1f3251;
+ }
+
+ p{
+    color: hsl(220,15%,55%);
+
+ }
